@@ -1,0 +1,76 @@
+html{
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: rgb(0,254,186);
+    background: linear-gradient(135deg, rgba(0,254,186,1) 0%, rgba(91,84,138,1) 100%);
+    color: #fff;
+    margin: 100px auto 40px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background: #ebfffc;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.detials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.coli{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.coli img{
+    width: 40px;
+    margin-right: 10px;
+}
+.coli p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.humidity,.wind{
+font-size: 28px;
+margin-top:-6px ;
+font-weight: 600;
+}

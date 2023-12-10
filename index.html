@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="card" >
+        <div class="search">
+            <input id="srch" class="form-control" type="text" placeholder="Enter City Name..." spellcheck="false">
+            <button id="srchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+       <div id="crd">
+        <div class="weather">
+            <img src="./images/clear.png" alt="" id="weathericon" class="weather-icon">
+            <h1 id="temp" class="temp">22</h1>
+            <h2 id="city" class="city">Berlin</h2>
+            <div class="detials">
+                <div class="coli">
+                    <img src="images/humidity.png" alt="">
+                   
+                    <div>
+                        <p class="humidity">50 %</p>
+                        <p class="fw-bold lead">Humidity</p>
+                    </div>
+                </div>
+                <div class="coli">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind lead fw-bold">15 Km/h</p>
+                        <p class="lead fw-bold">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+       </div>
+        
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
